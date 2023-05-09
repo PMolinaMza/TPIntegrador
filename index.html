@@ -1,147 +1,175 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Trabajo Practico Integrador</title>
     <link rel="stylesheet" href="estilos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  </head>
-  <body>
-    
-<!-- BARRA DE NAVEGACION -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary col-bg">
+<body>
+
+    <!-- BARRA DE NAVEGACION -->
+
+    <nav class="navbar bg-dark navbar-expand-lg col-bg" data-bs-theme="dark">
+
+    
         <div class="container-fluid">
-          <a class="navbar-brand col-5" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Los Oradores</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">El lugar y la fecha</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Conviértete en Orador</a>                
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Comprar tickets</a>
-              </li>
-              <!-- <li class="nav-item dropdown">
+            <img class="col-md-1" src="imagenes/codoacodo.png" alt="Logo" width="130" height="100">
+            <a class="navbar-brand" href="#">Conf Bs.As.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav text-white">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Los Oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conviértete en Orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Comprar tickets</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown link
                 </a> -->
-                <!-- <ul class="dropdown-menu">
+                    <!-- <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul> -->
-              </li>
-            </ul>
-          </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-<!-- CARRUSEL -->
+    <!-- CARRUSEL -->
 
-<div id="carouselExampleCaptions" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="imagenes/imagen1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <!-- <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/ba1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/ba2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/ba3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img src="imagenes/imagen2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- CARDS -->
+    <br>
+    <h6 class="titulo_carrusel">CONOCE A LOS</h6>
+    <H3 class="titulo_carrusel">ORADORES</H3>
+    <div class="card-group">
+        <div class="card">
+            <img src="imagenes/steve.jpg" class="card-img-top" alt="Steve Jobs">
+            <div class="card-body">
+                <button type="button" class="btn btn-warning fs-8 text-wrap" style="height: 2rem">Javascript</button>
+                <button type="button" class="btn btn-info"><small>React</small></button>
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img src="imagenes/imagen3.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+        <div class="card">
+            <img src="imagenes/bill.jpg" class="card-img-top" alt="..Bill Gates">
+            <div class="card-body">
+                <button type="button" class="btn btn-warning"><small>Javascript</small></button>
+                <button type="button" class="btn btn-info"> <small>React</small></button>
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
         </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+        <div class="card">
+            <img src="imagenes/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+            <div class="card-body">
+                <button type="button" class="btn btn-secondary">Negocios</button>
+                <button type="button" class="btn btn-danger">Startups</button>
 
-<!-- CARDS -->
-<br>
-<h6 class="titulo_carrusel">CONOCE A LOS</h6>
-<H3 class="titulo_carrusel">ORADORES</H3>
-<div class="card-group">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-
-<!-- CONTAINERS -->
-
-<br>
-<div class="container-fluid">
-    
-    <div class="row">
-
-        <div class="col-sm-12 col-md-6">
-            <img class="image-fluid" src="..." alt="">
-            acá va la imagen
+                <h5 class="card-title">Ada Lovelace</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
         </div>
-        <div class="col-sm-12 col-md-6"> 
+    </div>
+
+    <!-- CONTAINERS -->
+
+    <br>
+    <div class="contenedor container-fluid">
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-6">
+                <img class="image-fluid d-block w-100" src="imagenes/honolulu.jpg" alt="">
+                
+            </div>
             
-            texto
+            <div class="col-sm-12 col-md-6 col-bg bg-dark text-white">
+            
+                    <h3>Bs.As. - Octubre</h3>
+                    <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina. En los Estados Unidos Honolulu
+                        es la más sureña entre las principales ciudades estadounidenses. Aunque el nomnre de Honolulu se refiere al
+                        área urbana en la costa sureste de la isa de Oahu, la ciudad y el condado de Honolulu han formado una
+                        ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie)</p>
+            
+                
+            </div>
+
+
+
         </div>
 
-
-
     </div>
-
-</div>
 
     <!-- FORMULARIO -->
 
@@ -150,30 +178,53 @@
     <H3 class="titulo_carrusel">ORADOR</H3>
     <h6 class="titulo_carrusel">Anótate como orador para dar una charla ignite. Cuéntamnos de qué quieres hablar!</h6>
 
-    <div class="container-fluid center-block">
-    <div class="row">
+    <div class="formulario" >
+        <div class="container-fluid" >
+            <div class="row" >
+    
+                <div class="p-3 col-sm-12 col-md-6">
+                    <input class="form-control" type="text" placeholder="Nombre" aria-label="Nombre">
+                </div>
+    
+                <div class="p-3 col-sm-12 col-md-6">
+                    <input class="form-control" type="text" placeholder="Apellido" aria-label="Apellido">
+                </div>
+    
+                <div class="mb-20 col-sm-12 col-md-12">
+                    <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
+                    <textarea class="form-control" placeholder="Sobre qué quieres Hablar?" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="exampleFormControlTextarea1" class="form-label">Recuerda incluir un título para tu charla</label>
+                </div>
+    
+                <div class="d-grid gap-2 col-sm-12 col-md-12">
+                    <button class="btn btn-primary" type="button">Enviar</button>
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="wrapper">
+
+        <div>Preguntas Frecuentes</div>
+        <div>Contáctanos</div>
+        <div>Prensa</div>
+        <div>Conferencias</div>
+        <div>Términos y condiciones</div>
+        <div>Privacidad</div>
+        <div>Estudiantes</div>
+
+    </div>
+
         
-        <div class="p-3 col-sm-12 col-md-4">
-        <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
-        </div>
 
-        <div class="p-3 col-sm-12 col-md-4">
-        <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
-        </div>
-        <div class="mb-20 col-sm-12 col-md-8">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+    
+  
 
-        <div class="d-grid gap-2 col-sm-12 col-md-8">
-            <button class="btn btn-primary" type="button">Button</button>
-        </div>
-    </div>    
-
-
-    </div>    
-
-
+</div>
     
     
 </div>
