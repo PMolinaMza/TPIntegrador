@@ -1,0 +1,84 @@
+.nav-item{
+
+    display: flex;
+    color: aqua;
+    margin-block: 0;
+
+}
+
+.card-group{
+
+margin-left: 10%;
+margin-right: 10%;
+
+}
+
+.card-img-top{
+
+    padding: 10%;
+}
+
+
+.carousel-inner .carousel-item img {
+
+    height: 500px;
+
+}
+
+.titulo_carrusel{
+    /* display: block; */
+    text-align: center;
+}
+
+
+/* .container-text{
+
+    color: aliceblue;
+    background-color: #303030;
+} */
+
+
+.formulario{
+    /* width: 1000px; */
+    display: flex;
+    align-items: center;
+    margin: 10%;
+}
+
+.wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    height: 100px;
+
+  }
+
+.wrapper > div {
+    flex: 1 1 10px;
+    background-color: rgb(15, 100, 83);
+    color: aliceblue;
+    /* border: solid red; */
+    height: 100%;
+    text-align: center;
+    padding: 10px 10px 10px 10px;    
+    
+    
+
+  }
+
+  /* .btn-info{    
+    
+    height: 20px;
+    width: 60px;
+
+  }
+
+  .btn-warning {
+    height: 20px;
+    width: 80px;
+
+
+  } */
