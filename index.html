@@ -24,34 +24,27 @@
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav text-white">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Los Oradores</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">El lugar y la fecha</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Conviértete en Orador</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Comprar tickets</a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a> -->
-                    <!-- <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul> -->
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse" >
+                
+                    <ul class="navbar-nav mx-auto p-1 text-white">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Los Oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Conviértete en Orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="#">Comprar tickets</a>
+                        </li>
+                
+                    </ul>
+                
             </div>
         </div>
     </nav>
@@ -59,34 +52,53 @@
     <!-- CARRUSEL -->
 
     <div id="carouselExampleCaptions" class="carousel slide">
-        <!-- <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div> -->
+        
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="imagenes/ba1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                   
+                    <div class="texto-carrusel">
+                        <h5>Conf. Bs.As.</h5>
+                        <p>Bs.As. llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+                            experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a
+                            otros estudiantes de codo a codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                        <div>
+                            <button type="button" class="btn btn-outline-light">Quiero ser Orador</button>                                
+                            <button type="button" class="btn btn-success">Comprar Ticket</button> 
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="imagenes/ba2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <div class="texto-carrusel">
+                        <h5>Conf. Bs.As.</h5>
+                        <p>Bs.As. llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+                            experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a
+                            otros estudiantes de codo a codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                        <div>
+                            <button type="button" class="btn btn-outline-light">Quiero ser Orador</button>                                
+                            <button type="button" class="btn btn-success">Comprar Ticket</button> 
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="imagenes/ba3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <div class="texto-carrusel">
+                        <h5>Conf. Bs.As.</h5>
+                        <p>Bs.As. llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+                            experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a
+                            otros estudiantes de codo a codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                        <div>
+                            <button type="button" class="btn btn-outline-light">Quiero ser Orador</button>                                
+                            <button type="button" class="btn btn-success">Comprar Ticket</button> 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -100,7 +112,17 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+    
+        </div>
+    
+    
+    
+    
     </div>
+
+    
+
+
 
     <!-- CARDS -->
     <br>
@@ -110,34 +132,41 @@
         <div class="card">
             <img src="imagenes/steve.jpg" class="card-img-top" alt="Steve Jobs">
             <div class="card-body">
-                <button type="button" class="btn btn-warning fs-8 text-wrap" style="height: 2rem">Javascript</button>
-                <button type="button" class="btn btn-info"><small>React</small></button>
+
+                <!-- botones de cards -->
+                <button type="button" class="btn btn-warning btn-sm" style="height: 2rem">Javascript</button>
+                <button type="button" class="btn btn-info btn-sm"><small>React</small></button>
+
+
                 <h5 class="card-title">Steve Jobs</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, adipisci quas deserunt at laborum a tenetur doloribus, iusto fugit natus sapiente ab nisi repudiandae vitae, corporis dolorum voluptas odit consequatur.</p>
+                
             </div>
         </div>
         <div class="card">
             <img src="imagenes/bill.jpg" class="card-img-top" alt="..Bill Gates">
             <div class="card-body">
-                <button type="button" class="btn btn-warning"><small>Javascript</small></button>
-                <button type="button" class="btn btn-info"> <small>React</small></button>
+
+                <!-- botones de cards -->
+                <button type="button" class="btn btn-warning btn-sm"><small>Javascript</small></button>
+                <button type="button" class="btn btn-info btn-sm"> <small>React</small></button>
+                
                 <h5 class="card-title">Bill Gates</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vero maiores quam commodi veritatis obcaecati sint exercitationem illum expedita fugit ipsum ut, unde reprehenderit. Aliquam voluptatum debitis ipsum nemo neque.</p>
+                
             </div>
         </div>
         <div class="card">
             <img src="imagenes/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
             <div class="card-body">
-                <button type="button" class="btn btn-secondary">Negocios</button>
-                <button type="button" class="btn btn-danger">Startups</button>
+                
+                <!-- botones de cards -->
+                <button type="button" class="btn btn-secondary btn-sm">Negocios</button>
+                <button type="button" class="btn btn-danger btn-sm">Startups</button>
 
                 <h5 class="card-title">Ada Lovelace</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa atque vel architecto! Assumenda labore officia amet explicabo dolorum ab vitae animi sequi, molestias placeat libero sunt corrupti qui! Eligendi?</p>
+                
             </div>
         </div>
     </div>
@@ -145,11 +174,11 @@
     <!-- CONTAINERS -->
 
     <br>
-    <div class="contenedor container-fluid">
+    <div class="container-fluid">
 
         <div class="row">
 
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 max-width p-0">
                 <img class="image-fluid d-block w-100" src="imagenes/honolulu.jpg" alt="">
                 
             </div>
@@ -207,7 +236,23 @@
 
     <!-- FOOTER -->
 
-    <div class="wrapper">
+    <div class="footer">
+
+        
+            <div class="footer-item"><a href="#">Preguntas Frecuentes</a></div>
+            <div class="footer-item"><a href="#">Contáctanos</a></div>
+            <div class="footer-item"><a href="#">Prensa</a></div>
+            <div class="footer-item"><a href="#">Conferencia</a></div>
+            <div class="footer-item"><a href="#">Términos y condiciones</a></div>
+            <div class="footer-item"><a href="#">Privacidad</a></div>
+            <div class="footer-item"><a href="#">Estudiantes</a></div>
+
+
+
+    </div>
+
+
+    <!-- <div class="wrapper">
 
         <div>Preguntas Frecuentes</div>
         <div>Contáctanos</div>
@@ -217,7 +262,7 @@
         <div>Privacidad</div>
         <div>Estudiantes</div>
 
-    </div>
+    </div> -->
 
         
 
