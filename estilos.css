@@ -55,7 +55,7 @@ margin-right: 10%;
 
 
 .formulario{
-    /* width: 1000px; */
+
     display: flex;
     align-items: center;
     margin: 10%;
@@ -107,6 +107,19 @@ margin-right: 10%;
     
   }
   
+.tarjetaCompras {
+
+align-items: center;
+}
+
+
+.btn-verde {
+
+  background-color: chartreuse;
+
+}
+
+
 
   /* .btn-info{    
     
